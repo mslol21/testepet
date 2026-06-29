@@ -37,7 +37,7 @@ export const seedMockData = () => {
 
   // 1. Seed tenant settings
   const cachedSettings = getLocal('petflow_settings', null);
-  if (!cachedSettings) {
+  if (!cachedSettings || cachedSettings.name !== brandConfig.name) {
     setLocal('petflow_settings', defaultTenant);
   }
 
@@ -72,9 +72,9 @@ export const seedMockData = () => {
   const employeesKey = 'petflow_employees';
   if (!localStorage.getItem(employeesKey)) {
     const employees: Employee[] = [
-      { id: 'e1', name: 'Rodrigo Medeiros (Vet)', role: 'admin', email: 'rodrigo@calixtopet.com.br', phone: '(11) 97777-1111', services: ['s6', 's7'], workHours: {}, isActive: true },
-      { id: 'e2', name: 'Ana Souza (Tosa)', role: 'employee', email: 'ana@calixtopet.com.br', phone: '(11) 97777-2222', services: ['s1', 's2', 's3', 's4', 's5'], workHours: {}, isActive: true },
-      { id: 'e3', name: 'Bruno Lima (Recepção)', role: 'receptionist', email: 'bruno@calixtopet.com.br', phone: '(11) 97777-3333', services: [], workHours: {}, isActive: true }
+      { id: 'e1', name: 'Rodrigo Medeiros (Vet)', role: 'admin', email: 'rodrigo@konnexypet.com.br', phone: '(11) 97777-1111', services: ['s6', 's7'], workHours: {}, isActive: true },
+      { id: 'e2', name: 'Ana Souza (Tosa)', role: 'employee', email: 'ana@konnexypet.com.br', phone: '(11) 97777-2222', services: ['s1', 's2', 's3', 's4', 's5'], workHours: {}, isActive: true },
+      { id: 'e3', name: 'Bruno Lima (Recepção)', role: 'receptionist', email: 'bruno@konnexypet.com.br', phone: '(11) 97777-3333', services: [], workHours: {}, isActive: true }
     ];
     setLocal(employeesKey, employees);
   }

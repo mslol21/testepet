@@ -7,9 +7,9 @@ import { Tenant } from '../types';
  * All settings, visual identities, pixels, and section layouts will load automatically.
  */
 export const brandConfig = {
-  id: 'calixto',
-  slug: 'calixto',
-  name: 'Calixto Pet Shop',
+  id: 'konnexypet',
+  slug: 'konnexypet',
+  name: 'KonnexyPet',
   logoUrl: '', // URL path, e.g. "/images/logo.png" (placed in public folder)
   faviconUrl: '/favicon.ico',
   theme: {
@@ -22,14 +22,14 @@ export const brandConfig = {
   contact: {
     phone: '(11) 98888-7777',
     whatsapp: '5511988887777',
-    email: 'contato@calixtopet.com.br',
+    email: 'contato@konnexypet.com.br',
     address: 'Av. Paulista, 1000 - Bela Vista, São Paulo - SP',
-    instagram: 'calixtopetshop',
-    facebook: 'calixtopetshop',
-    tiktok: 'calixtopetshop'
+    instagram: 'konnexypet',
+    facebook: 'konnexypet',
+    tiktok: 'konnexypet'
   },
   seo: {
-    metaTitle: 'Calixto Pet Shop | Estética Canina & Saúde Animal',
+    metaTitle: 'KonnexyPet | Estética Canina & Saúde Animal',
     metaDescription: 'O melhor tratamento para seu pet com profissionais qualificados. Banho, tosa, táxi dog e consultas na região de São Paulo.',
     keywords: ['pet shop', 'tosa', 'banho', 'veterinário', 'são paulo']
   },
