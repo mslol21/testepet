@@ -456,7 +456,7 @@ export default function StorefrontPage() {
       <footer className="bg-slate-900 text-slate-400 py-10 px-6 border-t border-slate-800 text-xs mt-auto">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <span>© 2026 {brandConfig.name}. Todos os direitos reservados.</span>
-          <span className="text-slate-600 font-semibold">Tecnologia PetFlow White Label</span>
+          <span className="text-slate-600 font-semibold">Tecnologia KonnexyPet White Label</span>
         </div>
       </footer>
     </div>

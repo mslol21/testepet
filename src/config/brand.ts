@@ -1,7 +1,7 @@
 import { Tenant } from '../types';
 
 /**
- * PetFlow White Label - Premium Single-Tenant Brand Configuration
+ * KonnexyPet White Label - Premium Single-Tenant Brand Configuration
  * 
  * Adjust the details below to fully customize the deployment for your pet shop client.
  * All settings, visual identities, pixels, and section layouts will load automatically.

@@ -191,7 +191,7 @@ export default function AdminPortal() {
         <div className="max-w-md mx-auto w-full space-y-8 bg-white p-8 rounded-3xl border border-slate-200 shadow-2xl stripe-card">
           <div className="text-center">
             <span className="text-4xl block mb-3">🛡️</span>
-            <h2 className="text-2xl font-extrabold text-slate-900">PetFlow Admin</h2>
+            <h2 className="text-2xl font-extrabold text-slate-900">KonnexyPet Admin</h2>
             <p className="text-xs text-slate-500 mt-2">Área de acesso restrito a administradores e veterinários do pet shop.</p>
           </div>
 

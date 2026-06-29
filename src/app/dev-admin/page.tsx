@@ -66,7 +66,7 @@ export default function DevAdminPortal() {
                 Área Técnica - Console do Desenvolvedor
                 <ShieldCheck className="w-5 h-5 text-indigo-500" />
               </h1>
-              <p className="text-[10px] text-slate-500">Painel oculto de infraestrutura e suporte para a plataforma PetFlow.</p>
+              <p className="text-[10px] text-slate-500">Painel oculto de infraestrutura e suporte para a plataforma KonnexyPet.</p>
             </div>
           </div>
           <Link href="/admin" className="text-xs text-slate-400 hover:text-indigo-400 font-bold">

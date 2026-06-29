@@ -81,7 +81,7 @@ export default function InstallWizard() {
       await api.saveActivityLog('calixto', {
         id: `log-setup-${Date.now()}`,
         userId: 'admin-installer',
-        userName: 'Instalador PetFlow',
+        userName: 'Instalador KonnexyPet',
         action: 'Configuração Inicial',
         details: `Instalação concluída com sucesso para o pet shop ${name}`,
         timestamp: new Date().toISOString()
